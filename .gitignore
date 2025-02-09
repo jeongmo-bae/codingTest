@@ -1,5 +1,4 @@
-/java/out/
-/java/.idea/
-/java/java.iml
-/.idea/
-/.DS_Store
+out/
+*.iml
+.idea/
+.DS_Store
