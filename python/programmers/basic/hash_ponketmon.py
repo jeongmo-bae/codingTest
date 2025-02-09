@@ -1,5 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/1845
-
+"""
 def solution(nums):
     distinct_list = []
     N = nums.__len__() // 2
@@ -11,6 +11,19 @@ def solution(nums):
     else : 
         answer = N
     return answer
+"""
+
+from collections import Counter
+def solution(nums):
+    N = nums.__len__() // 2
+    dict_nums = Counter(nums)
+    #print(dict_nums)
+    if N > dict_nums.keys().__len__() :   
+        answer = dict_nums.keys().__len__()
+    else : 
+        answer = N
+    return answer
+
 
 
 test_case_list = [[3,3,3,2,2,2],[1,2,3,4,5,6],[1,1,1,2,3,4],[2,2]]
