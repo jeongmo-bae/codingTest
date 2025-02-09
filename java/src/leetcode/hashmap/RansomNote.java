@@ -1,5 +1,3 @@
-package com.leetcode.studyplan.top150.hashmap;
-
 import com.leetcode.studyplan.top150.twopointers.ValidPalindrome;
 
 import java.util.HashMap;

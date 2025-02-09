@@ -1,5 +1,3 @@
-package com.leetcode.studyplan.top150.arraynstring;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.TreeMap;
