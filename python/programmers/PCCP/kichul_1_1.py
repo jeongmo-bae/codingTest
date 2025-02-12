@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/250137
 def solution(bandage, health, attacks):
     answer = 0
     end_time_of_attack = attacks[-1][0] 
