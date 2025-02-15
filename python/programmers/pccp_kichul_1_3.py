@@ -55,20 +55,20 @@ def solution(h1, m1, s1, h2, m2, s2):
             answer += 1
         if cond_all:
             answer -= 1
-        print(f"""
-            time : {time}
-            answer : {answer}
-            before_degree_of_h : {before_degree_of_h}
-            before_degree_of_m : {before_degree_of_m}
-            before_degree_of_s : {before_degree_of_s}
-            now_degree_of_h : {now_degree_of_h}
-            now_degree_of_m : {now_degree_of_m}
-            now_degree_of_s : {now_degree_of_s}
-        """)
-        print(cond_h,cond_m,cond_all)
+#        print(f"""
+#            time : {time}
+#            answer : {answer}
+#            before_degree_of_h : {before_degree_of_h}
+#            before_degree_of_m : {before_degree_of_m}
+#            before_degree_of_s : {before_degree_of_s}
+#            now_degree_of_h : {now_degree_of_h}
+#            now_degree_of_m : {now_degree_of_m}
+#            now_degree_of_s : {now_degree_of_s}
+#        """)
+#        print(cond_h,cond_m,cond_all)
 
     return answer
 
 
-solution(0, 5, 30, 0, 7, 0)
+
 
